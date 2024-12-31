@@ -1955,7 +1955,8 @@
         width: 100%;
     }
     .avatar-img{
-        
+        width: 85px;
+       margin-bottom: 94px;
     }
     .bottom-nav{
         width: 100%;
