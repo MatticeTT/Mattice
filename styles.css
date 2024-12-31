@@ -2089,4 +2089,7 @@
     .to-top-btn{
         display: none;
     }
+    .swiper-button-next i, .swiper-button-prev i{
+        display: none;
+    }
  }
