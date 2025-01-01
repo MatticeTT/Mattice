@@ -611,6 +611,7 @@
     justify-content: center;
     align-items: center;
     column-gap: 25px;
+    z-index: var(--z-base);
  }
  .avatar-img{
     position: relative;
@@ -635,6 +636,7 @@
  .home-social{
     position: absolute;
     left: 0;
+    z-index: var(--z-modal);
  }
  .home-social span{
     position: absolute;
@@ -668,6 +670,7 @@
  }
  .avatar-container .hire-btn-01{
     display: none;
+    z-index: var(--z-modal);
  }
  .avatar-info{
     position: relative;
