@@ -1399,7 +1399,7 @@
  .swiper{
     width: 100%;
     max-width: 1050px;
-    height: 275px;
+    /* height: 275px; */
  }
  .swiper-slide{
     text-align: center;
@@ -1448,7 +1448,7 @@
  }
  .swiper-slide .client-details p{
     color: var(--color-02);
-    font-size: var(--base-font-size);
+    font-size: var(--small-font-size);
     font-weight: var(--font-regular);
     margin-top: 15px;
     margin-bottom: 25px;
@@ -1732,7 +1732,7 @@
     }
     .swiper{
         max-width: 1000px;
-        height: 475px;
+        /* height: 475px; */
     }
  }
  
@@ -1743,15 +1743,17 @@
     .avatar-container{
         flex-direction: column-reverse;
         row-gap: 10px;
+        margin-top: 0px;
     }
     .avatar-container .hire-btn-01{
-        display: block;
+        display: flex;
     }
     .avatar-container .hire-btn-02{
         display: none;
     }
     .avatar-img{
         width: 350px;
+        margin-bottom: -5%;
     }
     .avatar-info .text-content{
         align-items: center;
@@ -1764,14 +1766,14 @@
     }
     .swiper{
         max-width: 700px;
-        height: 500px;
+        /* height: 500px; */
         margin-top: -40px;
     }
     .swiper-slide{
         flex-direction: column;
     }
     .swiper-slide .client-img{
-        margin-bottom: 35px;
+        margin-bottom: 30px;
     }
     .swiper-slide .client-details{
         text-align: center;
@@ -1857,9 +1859,13 @@
     }
     .skill-card{
         padding: 50px 0;
+        width: 450px;
     }
     .skill i{
         font-size: 1.25rem;
+    }
+    .skill-categories{
+        width: 100%;
     }
     .service-container{
         grid-template-columns: repeat(1, 1fr);
@@ -1953,9 +1959,12 @@
     .avatar-container{
         row-gap: 0;
         width: 100%;
+        margin-top: 20px;
     }
     .avatar-img{
-        width: 80%;
+        width: 285px;
+        margin-bottom: -16%;
+        margin-top: -20px;
     }
     .bottom-nav{
         width: 100%;
@@ -1990,7 +1999,7 @@
     }
     .about-img{
         width: 100%;
-        max-width: 325px;
+        max-width: 250px;
     }
     .pro-list{
         grid-template-columns: repeat(auto-fill, minmax(160px, 2fr));
@@ -2012,28 +2021,30 @@
         width: 140px;
     }
     .resume-items .item-left .info{
-        right: 40px;
+        right: 25px;
     }
     .resume-items .item-right .info{
-        right: 45px;
+        left: 45x;
     }
     .resume-items .item .info p{
         white-space: break-spaces;
     }
     .skill-container{
         row-gap: 35px;
+        justify-content: center;
     }
     .skill-container.one{
         margin-bottom: -15px;
     }
     .skill-card{
         padding: 35px 0;
+        width: 360px;
     }
     .skill-title{
         margin-bottom: 35px;
     }
     .skill-categories{
-        column-gap: 35px;
+        column-gap: 0;
         padding: 0 25px;
     }
     .service-container{
@@ -2058,6 +2069,10 @@
     }
     .portfolio-modal{
         padding: 65px 20px;
+    }
+    .client-details{
+        margin-left: 50px;
+        margin-right: 50px;
     }
     .contact-details{
         row-gap: 35px;
@@ -2087,7 +2102,18 @@
     .to-top-btn{
         display: none;
     }
-    .swiper-button-next i, .swiper-button-prev i{
-        display: none;
-    }
+ }
+
+
+ @media screen and (max-width: 400px) {
+ .resume-items .item-left .info{
+    right: 10px;
+}
+.resume-items .item-right .info{
+    left: 30px;
+}
+.skill-card{
+    padding: 35px 0;
+    width: 340px;
+}
  }
