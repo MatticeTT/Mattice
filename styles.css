@@ -332,7 +332,7 @@
     Header
  ========================================= */
  .mattice-header{
-    z-index: var(--z-fixed);
+    z-index: 9998;
     position: fixed;
     width: 100%;
     top: 0;
