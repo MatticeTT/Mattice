@@ -1109,7 +1109,6 @@
     transform: scale(0);
     opacity: 0;
     transition: transform .5s, opacity .5s;
-   z-index: 9999;
 }
 .service-modal.active{
     transform: scale(1);
@@ -1137,6 +1136,7 @@
     margin-top: 50px;
     padding: 10px;
     overflow-y: auto;
+    z-index: 9999;
 }
 .modal-content::-webkit-scrollbar{
     background: hsl(var(--hue) 25% 20%);
