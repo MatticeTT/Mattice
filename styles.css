@@ -16,9 +16,9 @@
     /* Red - hsl(356, 67%, 70%); */
     /* Pink - hsl(330, 73%, 72%); */
  
-    --hue: 162;
-    --sat: 60%;
-    --light: 65%;
+    --hue: 163;
+    --sat: 23%;
+    --light: 53%;
  
     --primary-color: hsl(var(--hue) var(--sat) var(--light)); /* primary */
     --white-color: hsl(var(--hue) 45% 98%); /* white */
