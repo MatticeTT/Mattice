@@ -1361,6 +1361,12 @@
     width: 100%;
     border-radius: 10px;
  }
+.portfolio-modal .modal-img video{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    height: auto;
+}
  .portfolio-modal .modal-content .modal-title{
     color: var(--color-02);
     font-size: var(--h4-font-size);
